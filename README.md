@@ -5,4 +5,4 @@ with c# and memory.dll for bytescan
 
 programmer : chamcham425 aka Zansword
 
-picutre support : Alice
+picutre support : Alice愛麗絲
