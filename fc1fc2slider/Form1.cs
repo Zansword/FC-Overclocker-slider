@@ -315,11 +315,11 @@ namespace fc1fc2slider
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text))
+            if (String.IsNullOrEmpty(textBox2.Text))
             {
                 textBox2.Text = "0";
             }
-            if (Convert.ToInt32(textBox1.Text) > 533)
+            if (Convert.ToInt32(textBox2.Text) > 533)
             {
                 textBox2.Text = "533";
             }
@@ -352,11 +352,10 @@ namespace fc1fc2slider
             backgroundWorker2.RunWorkerAsync();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) // github
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //blogspot
         {
-            System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://github.com/Zansword/FC-Overclocker-slider/releases");
         }
-
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //blogspot
         {
             System.Diagnostics.Process.Start("https://chamcham425.blogspot.com/");
